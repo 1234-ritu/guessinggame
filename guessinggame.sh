@@ -12,7 +12,9 @@ function game{
          done
          echo"Congratulations, You have guessed right."
 }
+
 echo "Guess how many files are there in the current directory."
 read guess_number
+
 total_files=$(ls | wc -l)
 game
