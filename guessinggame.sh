@@ -6,8 +6,10 @@ function game{
          if[[$guess_number -lt $total_files]]
          then
              echo"Your Guess is too low."
+             echo"Guess again."
          else
              echo"Your Guess is too high."
+             echo"Guess agian."
          fi
          done
          echo"Congratulations, You have guessed right."
