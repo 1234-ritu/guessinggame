@@ -1,7 +1,7 @@
 
 README.md: guessinggame.sh
 	touch README.md
-	echo "# Guessinggame.sh" > README.md
-	date >> README.md
-	echo "    " >> README.md
-	wc -l < guessinggame.sh >> README.md
+	echo "# Guessinggame" > README.md
+	date>>README.md
+	cat guessinggame.sh |wc -l >>README.md
+	echo"lines of code"
